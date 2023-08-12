@@ -7,35 +7,53 @@
          background-color: rgb(202,242, 225);
       }
    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Form</title>
   </head>
   <center><body>
     <h2>AT's Tutoring Website</h2>
-    <hr>
+    <hr align="center" width="45%" color="black">
     <h4>HOME</h4>
     <p>Tired of tutors who are boring or just give you answers instead of tools to improve? Athilesh is the most entertaining and educational tutor you've ever met!</p>
     <a href="#Subjects">SUBJECTS COVERED</a> <br>
     <a href="#Schedule">SCHEDULE</a> <br>
     <a href="#Contact">CONTACT INFO</a> <br>
     <p>Athilesh, a native of northern Virginia, has almost a decade of experience in tutoring in both a wide variety of subject and for a wide variety of grade levels. He enjoys sleeping in his free time.</p>
-    <hr>
+    <hr align="center" width="45%" color="black">
     <div>
       <h4 id="Subjects">SUBJECTS COVERED</h4>
       <p>Athilesh prefers to approach tutoring from a relationship-based perspective. While pre-exam cram sessions are available, he highly recommends taking a couple of sessions to get to know a student's notetaking habits, patterns of mistakes, etc to not only bridge gaps in material by tailoring content delivery to the individual but also improve students' study and scheduling habits.</p>
       <p>Chemistry: Up to and including Organic Chemistry I (no lab courses) <br>Math: Up to and including Multivariable Calculus and Linear Equations<br>Spanish: Up to and including 300-level courses<br>Test Prep: SAT, ACT, GRE</p>
     </div>
-    <hr>
+    <hr align="center" width="45%" color="black">
     <div>
       <h4 id="Schedule">SCHEDULE</h4>
       <p>For now, all scheduling will be done on a case-by-case basis. All pricing will also be done on a case-by-case basis. Pricing is flexible for students with whom I’ve worked in the past, group sessions (2-4 students), and on for need-based discounts.</p>
       <p>I am happy to guarantee my work if necessary–no payment due if you don’t believe it was worth it!</p>
       <p>Please reach out below to learn more.</p>
     </div>
-    <hr>
+    <hr align="center" width="45%" color="black">
     <div>
       <h4 id="Contact">CONTACT INFO</h4>
       <p>Please allow 24 hours for a response</p>
       <p>athilesh(@)umich(dot)edu<br>(five seven one) 335-5205</p>
       <p>Or send us a message below!</p>
+      <div class="formcarry-container">
+        <form action="#" method="POST" class="formcarry-form">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" name="fullName" required />
+  
+          <label for="email">Your Email Address</label>
+          <input type="email" id="email" name="email" required />
+  
+          <label for="message">Your Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+  
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </div>
   </body></center>
 </html>
