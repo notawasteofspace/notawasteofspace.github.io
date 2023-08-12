@@ -40,19 +40,25 @@
       <p>Please allow 24 hours for a response</p>
       <p>athilesh(@)umich(dot)edu<br>(five seven one) 335-5205</p>
       <p>Or send us a message below!</p>
-      <div class="formcarry-container">
-        <form action="#" method="POST" class="formcarry-form">
-          <label for="name">Your Name</label> <br>
-          <input type="text" id="name" name="fullName" required /> <br>
-  
-          <label for="email">Your Email Address</label><br>
-          <input type="email" id="email" name="email" required /> <br>
-  
-          <label for="message">Your Message</label><br>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea> <br>
-          <button type="submit">Send</button>
-        </form>
-      </div>
+      <form
+        action="https://formspree.io/f/mbjvgaan"
+        method="POST"
+      >
+        <label>
+          Your name:
+          <input type="name" name="name">
+        </label>
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+      </form>
     </div>
   </body></center>
 </html>
